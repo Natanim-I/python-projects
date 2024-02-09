@@ -30,7 +30,7 @@ if choice1 == "talk":
             choice4 = input("       Should you get a drink? ")
             if choice4 == "yes" and is_dog_found:
                 print("     You found your Dog and Get the girl you can give her the rose :) You WON!!!")
-            elif  is_dog_found and choice4 == "no":
+            elif is_dog_found and choice4 == "no":
                 print("     You found your dog but declined the girl. She doesn't want you anymore!!!")
                 print("     Game Over, rose wasted!!!")
             else:
