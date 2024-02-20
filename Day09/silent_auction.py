@@ -1,5 +1,4 @@
-from auction_logo import logo
-import os
+from auction_logo import logo 
 
 print(logo)
 print("Welcome to the Secret Auction Program: ")
@@ -25,6 +24,5 @@ while bid_continue:
     if choice == "no":
         bid_continue = False
         silent_auction(bid_auction)
-
 
 
