@@ -28,7 +28,7 @@ MENU = {
 
 profit = 0
 resources = {
-    "water": 1000,
+    "water": 300,
     "milk": 200,
     "coffee": 100
 }
@@ -77,8 +77,8 @@ def process_order(order):
 customer_choice = ""
 money = 0
 
+print(logo)
 while customer_choice != 'off':
-    print(logo)
     customer_choice = input("What would you like (espresso/latte/cappuccino): ").lower()
     if customer_choice == 'espresso' or customer_choice == 'latte' or customer_choice == 'cappuccino':
         amount = check_amount(customer_choice)
